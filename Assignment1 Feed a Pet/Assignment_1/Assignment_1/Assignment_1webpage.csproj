@@ -68,8 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Body.css" />
+    <Content Include="rightContent - Copy.css" />
+    <Content Include="SucessStories.html" />
     <Content Include="Indext.html" />
-    <Content Include="rightContent.css" />
+    <Content Include="leftContent.css" />
     <Content Include="middleContent.css" />
     <Content Include="rightSide.js" />
     <Content Include="HeaderStyleSheet.css" />

@@ -1,0 +1,22 @@
+﻿body {
+    
+    background-color:aqua;
+    width: 435px;
+    height: auto;
+}
+.header2 {
+    text-underline-position:auto below;
+    margin-left: 120px;
+    font-family: fantasy;
+    color:darkgreen;
+
+}
+.style1{
+    width: 430px;
+    height: 300px;
+}
+/*sucessStory1 img {
+    width: 5px;
+    height: 5px;
+}
+*/
