@@ -5,15 +5,20 @@
     height: auto;
 }
 .header2 {
-    text-underline-position:auto below;
+
     margin-left: 120px;
-    font-family: fantasy;
-    color:darkgreen;
+    color:black;
 
 }
 .style1{
     width: 430px;
     height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 /*sucessStory1 img {
     width: 5px;
