@@ -68,8 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Body.css" />
+    <Content Include="christmas dog.jpg" />
+    <Content Include="feeding pets.jpg" />
+    <Content Include="Latest.html" />
+    <Content Include="OurInput.html" />
     <Content Include="manAndDog.jpg" />
-    <Content Include="rightContent - Copy.css" />
+    <Content Include="rightContent.css" />
     <Content Include="SucessStories.html" />
     <Content Include="Indext.html" />
     <Content Include="leftContent.css" />

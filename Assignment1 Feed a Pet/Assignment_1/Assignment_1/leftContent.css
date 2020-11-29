@@ -1,27 +1,25 @@
 ﻿body {
     
     background-color:aqua;
-    width: 435px;
+    width: auto;
     height: auto;
 }
-.header2 {
-
-    margin-left: 120px;
-    color:black;
-
+h2 {
+    text-align: center;
 }
+
 .style1{
-    width: 430px;
+    margin-left:10px;
+    width: 460px;
     height: 300px;
+    border-radius:60px
+}
+p{
+    font-size:20px;
 }
 
 @media screen and (max-width: 600px) {
-    .column {
+    .column1 {
         width: 100%;
     }
 }
-/*sucessStory1 img {
-    width: 5px;
-    height: 5px;
-}
-*/

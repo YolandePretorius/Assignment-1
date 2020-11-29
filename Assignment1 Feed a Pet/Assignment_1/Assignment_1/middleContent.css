@@ -1,23 +1,30 @@
-﻿/*
-.column {
-    float: left;
-    width: 50px;
-
+﻿body {
+    background-color:dodgerblue;
+    width: auto;
+    height: auto;
+   
+}
+h2{
+    text-align:center;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
-
-.row {
-    content: "";
-    display: table;
-    clear: both;
+p {
+    text-align:center;
+    font-size:x-large;
 }
 
-.column {
-    float: left;
-    flex: 30%;
+
+.auto-style2 {
+   margin-left:100px;
+    width: 400px;
+    height: 450px;
+    border-style:solid;
+    border-radius:30px;
 }
+
+@media screen and (max-width: 600px) {
+    .column2 {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Feed a pet</title>
+    <link rel ="stylesheet" type="text/css" href ="HeaderStyleSheet.css" />
+
+    <link rel ="stylesheet" type="text/css" href ="Columns.css "/>
+    <link rel ="stylesheet" type="text/css" href ="rightContent.css "/>
+    <link rel ="stylesheet" type="text/css" href ="middleContent.css "/>
+    <link rel ="stylesheet" type="text/css" href="Body.css" />
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <header class="auto-style2">
+             &nbsp; <img id="logo" src ="LOGO2.png" alt ="logo" class="auto-style1"><h1>Support for elderly and disabled pet owners</h1>
+            <input type="text" placeholder ="Search.." />
+    </header>
+    <div class ="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href ="#Getsupport">Get Suport</a>
+        <a href ="#howYouCanHelp">How you can help</a>
+        <a href ="#ReportAnimalAbuse">Report animal abuse</a>
+        <a href ="#Donate">Donate</a>
+    </div>
+     <section>
+         <article id="sucess stories">
+             <iframe src="SucessStories.html" height="900" width="450" title="Side Panel"><h3>Success stories</h3></iframe>
+         </article>
+     </section>
+
+    <section>
+      <div class="row" >
+          <div class="column">
+            <h3>WE WANT TO HELP</h3>
+            <p>Pets stay with their owners through hardship and can sometimes be their only companion. When pet owners can't look after their pets financially, the only option is to give them up for adoption. Leaving the owners who are usually elderly and disabled heart broken. 
+                We want to make sure that there are other options.</p>
+            <p> Our charity provides food and necessities to these pet owners. Its so easy, click on Get support to start receiving gift vouches thaT can be used at any vet or pet shop in person or shop online. </p>
+          </div>
+
+          <div class="column">
+            <h3>Latest Sucess Stories3</h3>
+            <p></p>
+          </div>
+       </div>
+        </section>
+   <!-- <img id ="catLady" src="catLady.jpg" alt="header image" />-->
+
+    <p>
+    </p>
+</body>
+</html>
