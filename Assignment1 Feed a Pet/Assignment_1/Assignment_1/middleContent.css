@@ -1,9 +1,4 @@
-﻿body {
-    background-color:dodgerblue;
-    width: auto;
-    height: auto;
-   
-}
+﻿
 h2{
     text-align:center;
 }
@@ -14,12 +9,13 @@ p {
 }
 
 
-.auto-style2 {
-   margin-left:100px;
+.middlepicture {
+    margin-top:30px;
+    margin-left: 150px;
     width: 400px;
     height: 450px;
-    border-style:solid;
-    border-radius:30px;
+    border-style: solid;
+    border-radius: 30px;
 }
 
 @media screen and (max-width: 600px) {
