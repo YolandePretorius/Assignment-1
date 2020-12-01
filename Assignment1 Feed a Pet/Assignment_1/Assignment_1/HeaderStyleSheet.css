@@ -25,8 +25,7 @@ h1 {
     padding: 40px;
     text-align: center;
     font-style: italic;
-    margin-left: 130px;
- 
+    text-align: center;
 }
 /*Add search box inside header*/
 header input[type=text] {
@@ -50,9 +49,9 @@ header input[type=text] {
      display: block;
      color: black;
      text-align: center;
-     padding: 14px 200px;
+     padding: 14px 145px;
      text-decoration: none;
-     font-size: 20px;
+     font-size: 16px;
     }
 
 /* Change the color of links on hover */
@@ -75,7 +74,7 @@ header input[type=text] {
 
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
         float: none;
         display: block;
@@ -83,7 +82,7 @@ header input[type=text] {
         width: 100%;
         margin: 0;
         padding: 14px;
-    }
+    }*/
 
     .topnav input[type=text] {
         border: 1px solid #ccc;

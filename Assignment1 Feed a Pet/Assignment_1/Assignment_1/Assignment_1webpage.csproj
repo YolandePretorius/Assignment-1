@@ -71,7 +71,10 @@
     <Content Include="christmas dog.jpg" />
     <Content Include="feeding pets.jpg" />
     <Content Include="feeding pets3.jpg" />
+    <Content Include="FormInfo.js" />
+    <Content Include="GetSupportStyle.css" />
     <Content Include="HowYouHelp.html" />
+    <Content Include="GetSupport.html" />
     <Content Include="Latest.html" />
     <Content Include="manAndDog.jpg" />
     <Content Include="rightContent.css" />
