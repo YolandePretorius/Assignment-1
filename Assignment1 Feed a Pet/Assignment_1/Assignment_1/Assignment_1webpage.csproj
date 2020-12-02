@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="Body.css" />
     <Content Include="christmas dog.jpg" />
+    <Content Include="Donate.html" />
+    <Content Include="formSubmitted.html" />
     <Content Include="feeding pets.jpg" />
     <Content Include="feeding pets3.jpg" />
     <Content Include="FormInfo.js" />
