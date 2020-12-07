@@ -2,3 +2,92 @@
 {
     background-color:lightgoldenrodyellow;
 }
+/*Add header to webpage and style */
+h1 {
+
+    display: inline;
+    float: left;
+    padding: 40px;
+    text-align: center;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    margin-top:30px;
+    text-align: center;
+}
+
+.leftPicture {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 430px;
+    height: 300px;
+    border-radius: 60px
+}
+
+p {
+    font-size: 20px;
+    text-align:center;
+    font-style:italic;
+}
+
+
+.middlepicture {
+
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom:80px;
+    width: 400px;
+    height: 450px;
+    border-style: solid;
+    border-radius: 30px;
+}
+.rightPicture {
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+#Help{
+    margin-left:30px;
+}
+#Donate {
+    margin-left: 30px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 2px;
+    background-color: lightsalmon;
+    color: white;
+    margin-bottom: 1px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: red;
+}
+
+#list{
+    margin-top:50px;
+    margin-left:300px;
+   font-size:20px;
+   
+}

@@ -4,8 +4,6 @@
     <meta charset="utf-8" />
     <title>Feed a pet</title>
     <link rel="stylesheet" type="text/css" href="HeaderStyleSheet.css" />
-    <link rel="stylesheet" type="text/css" href="middleContent.css" />
-    <link rel="stylesheet" type="text/css" href="rightContent.css" />
     <link rel="stylesheet" type="text/css" href="Columns.css " />
     <link rel="stylesheet" type="text/css" href="Body.css" />
     <link rel="stylesheet" type="text/css" href="Footer.css" />
@@ -14,11 +12,15 @@
 
 </head>
 <body>
-    <header>
+    <header id="Header">
         &nbsp; <img id="logo" src="LOGO2.png" alt="logo"><h1>Support for elderly and disabled pet owners</h1>
-        <form>
-            <input type="search" placeholder="Search.." />
-        </form>
+        <!--<input type="text" placeholder="Search..">-->
+
+        <div class="search_box">
+            <form action="search.php" method="GET" id="search">
+                <input type="text" name="q" size="25" placeholder="Search." />
+            </form>
+        </div>
     </header>
 
 
@@ -28,65 +30,67 @@
         <a href="HowYouHelp.html">How you can help</a>
         <a href="https://www.spca.nz/contact">Report animal abuse</a>
         <a href="Donate.html">Donate</a>
+        
     </div>
 
     <!-- dividing the web page in to three columns -->
     <section>
         <div class="row">
             <!-- left side of web page -->
-            <div class="column1">
-                <article id="sucess stories">
+            <div class="column">
+                <article id="stories">
                     <!--<iframe src="SucessStories.html" height="900" width="600" title="LeftSide Panel"></iframe>-->
                     <h2 class="header2">SUCCESS STORIES</h2>
                     <div class="sucessStory">
-                        <img src="catLady.jpg" class="auto-style3" alt="Jane King" />
+                        <img src="catLady.jpg" class="leftPicture" alt="Jane King" />
                         <p><cite>Jane King: </cite> Ive had Felix for 5 years now and he's been my companion ever since. I want to thank Feed a Pet charity for the support and thus helping me to keep him. Financially its been tough since retirement</p>
                     </div>
                     <div class="sucessStory">
-                        <img src="manAndDog.jpg" class="auto-style3" alt="Peter Jackson" />
+                        <img src="manAndDog.jpg" class="leftPicture" alt="Peter Jackson" />
                         <p><cite>Peter Jackson </cite> Thanks to Feed A Pet it's been much easier to be disabled and have a pet. After going blind Sally has been my eyes.</p>
                     </div>
                 </article>
             </div>
             <!-- middle of web page -->
-            <div class="column2">
+            <div class="column" style="background-color:lightskyblue" >
+                <article id="Help">
+                    <h2>WE WANT TO HELP</h2>
 
-                <h2>WE WANT TO HELP</h2>
-
-                <p>
-                    Pets stay with their owners through hardship and can sometimes be their only companion. When pet owners can't look after their pets financially, the only option is to give them up for adoption. Leaving the owners who are usually elderly and disabled heart broken.
-                    We want to make sure that there are other options.
-                </p>
-                <p> Our charity provides food and necessities to these pet owners. Its so easy, click on Get support to start receiving gift vouches that can be used at any vet, pet shop or online shop. </p>
-
-                <img src="feeding pets.jpg" class="middlepicture" alt="Feeding Dogs" />
-                <img src="feeding pets3.jpg" class="middlepicture" alt="feeding cat" />
-
-
+                    <p>
+                        Pets stay with their owners through hardship and can sometimes be their only companion. When pet owners can't look after their pets financially, the only option is to give them up for adoption. Leaving the owners who are usually elderly and disabled heart broken.
+                        We want to make sure that there are other options.
+                    </p>
+                 <br />
+                    <p> Our charity provides food and necessities to these pet owners. Its so easy, click on Get support to start receiving gift vouches that can be used at any vet, pet shop or online shop. </p>
+                    <br />
+                    <img src="feeding pets.jpg" class="middlepicture" alt="Feeding Dogs" />
+                    <!--<img src="feeding pets3.jpg" class="middlepicture" alt="feeding cat" />-->
+                    <br />
+                    </article>
             </div>
             <!-- right side of web page -->
-            <div class="column3">
-                <!--<iframe src="Latest.html" height="900" width="600" title="RightSide Panel"></iframe>-->
+            <div class="column" >
+                <article id="Donate">
+                    <!--<iframe src="Latest.html" height="900" width="600" title="RightSide Panel"></iframe>-->
 
-                <h2> MAKE A DIFFERENCE THIS CHRISTMAS</h2>
-                <img src="christmas dog.jpg" class="auto-style3" alt="Christmas Dog" />
-                <p>Open your heart and support our mission to feed over a million pets this Christmass by <a href="Donate.html"</a> donating.</p>
+                    <h2> MAKE A DIFFERENCE THIS CHRISTMAS</h2>
+                    <img src="christmas dog.jpg" class="rightPicture" alt="Christmas Dog" />
+                    <p>During the festive times theres a big need in food supplies for our pets. We ask you to open your heart and support our mission to feed over a million pets this Christmass by <a href="Donate.html">donating<link href="HeaderStyleSheet.css" rel="stylesheet" />.</a> </p>
+                   
+                    <button class="button button1" onclick="window.location.href='Donate.html';">Donate</button>
+                </article>
+            </div>
+        </div>
+    </section>
+       <br />
+   
+     <footer>
+       
+        <p> Contact us:</p>
+        <p>email:admin@feedapet.ac.nz</p>
+        <address>Address:6 Flower avenue Wellington Auckland New Zealand 0258</address>
+    </footer>
+   
 </body>
-<br />
-<h2>Donations received for Christmas</h2>
-          </div>
-       </div>
-        </section>
-
-<footer>
-    <br />
-    <hr />
-    <p1> contct us:</p1>
-    <br />
-    <p1>email:admin@feedapet.ac.nz</p1>
-    <address>Address:6 Flower avenue Wellington Auckland New Zealand 0258</address>
-</footer>
-<p>
-</p>
-</body>
+ 
 </html>

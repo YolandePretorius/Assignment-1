@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="HeaderStyleSheet.css" />
     <link rel="stylesheet" type="text/css" href="Body.css" />
     <link rel="stylesheet" type="text/css" href="Footer.css" />
-    <link rel="stylesheet" type="text/css" href="GetSupportStyle.css" />
+    <link rel="stylesheet" type="text/css" href="FormStyle.css" />
+
     <script src="FormInfo.js"></script> 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,9 +18,13 @@
 
 <body>
 
-    <header>
+    <header id="Header">
         &nbsp; <img id="logo" src="LOGO2.png" alt="logo"><h1>Support for elderly and disabled pet owners</h1>
-        <input type="text" placeholder="Search.." />
+        <div class="search_box">
+            <form action="search.php" method="GET" id="search">
+                <input type="text" name="q" size="25" placeholder="Search." />
+            </form>
+        </div>
     </header>
 
 
@@ -30,22 +35,24 @@
         <a href="https://www.spca.nz/contact">Report animal abuse</a>
         <a href="Donate.html">Donate</a>
     </div>
-    <h2 id="supportHeading">GET SUPPORT</h2>
+
+    <h2>GET SUPPORT</h2>
+    <p>You are on the right path to get help. Fill in your details and we will get in touch with you.</p>
+    <p>You can also contact us for any information.</p>
+    <br />
     <div class="clientForm">
 
-        <p>You are on the right path to get help. Fill in your details and we will get in touch with you.</p>
-        <p>You can also contact us for any information.</p>
 
 
         <form id=" ClientForm" action="formSubmitted.html">
 
-         
-            <input type="text" id="fname" name="fname" value="First name*"/><br /><br />
-         
+
+            <input type="text" id="fname" name="fname" value="First name*" /><br /><br />
+
             <input type="text" id="lname" name="lname" value="Last name*" /><br><br>
-  
+
             <input type="tel" id="contactNumber" name="contactNumber" value="Phone" /><br><br>
-    
+
             <input type="email" id="email" name="Email*" value="Email"><br /><br />
 
 
@@ -53,6 +60,14 @@
             <input type="reset" />
         </form>
     </div>
+    <br />
+    <br /><br />
+    <footer>
+
+        <p> Contact us:</p>
+        <p>email:admin@feedapet.ac.nz</p>
+        <address>Address:6 Flower avenue Wellington Auckland New Zealand 0258</address>
+    </footer>
 </body>
     
 </html>
