@@ -68,11 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Body.css" />
-    <Content Include="christmas dog.jpg" />
+    <Content Include="christmas_dog.jpg" />
     <Content Include="Donate.html" />
+    <Content Include="feeding-dog-with-hand.jpg" />
     <Content Include="formSubmitted.html" />
-    <Content Include="feeding pets.jpg" />
-    <Content Include="feeding pets3.jpg" />
+    <Content Include="feeding_pets.jpg" />
+    <Content Include="feeding_pets3.jpg" />
     <Content Include="FormInfo.js" />
     <Content Include="FormStyle.css" />
     <Content Include="HowYouHelp.html" />

@@ -37,7 +37,8 @@ p {
 .middlepicture {
 
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 15px;
+ 
     margin-bottom:80px;
     width: 400px;
     height: 450px;
@@ -80,12 +81,37 @@ footer {
 }
 
 .button1 {
-    margin-top: 100px;
-    margin-left: 200px;
     background-color: red;
+    margin-top: 50px;
+    margin-left: 150px;
+    animation-name: example;
+    animation-duration: 8s;
 }
 
-#list{
+.button2 {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+    font-size: 16px;
+
+    background-color: red;
+    animation-name: example;
+    animation-duration: 8s;
+}
+    @keyframes example {
+        from {
+            background-color: red;
+        }
+
+        to {
+            background-color: yellow;
+        }
+    }
+
+    #list{
     margin-top:50px;
     margin-left:300px;
    font-size:20px;

@@ -1,11 +1,8 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang ="en">
 <head>
     <meta charset="utf-8" />
-    <title>Get support Feed a Pet</title>
-
-    <meta charset="utf-8" />
-    <title>Help Feed a pet</title>
+    <title>Get support Feed A Pet </title>
     <link rel="stylesheet" type="text/css" href="HeaderStyleSheet.css" />
     <link rel="stylesheet" type="text/css" href="Body.css" />
     <link rel="stylesheet" type="text/css" href="Footer.css" />
@@ -14,6 +11,7 @@
     <script src="FormInfo.js"></script> 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
 </head>
 
 <body>
@@ -33,38 +31,57 @@
         <a href="GetSupport.html">Get Support</a>
         <a href="HowYouHelp.html">How you can help</a>
         <a href="https://www.spca.nz/contact">Report animal abuse</a>
-        <a href="Donate.html">Donate</a>
+        <a class="button2" href="Donate.html">Donate</a>
     </div>
 
     <h2>GET SUPPORT</h2>
     <p>You are on the right path to get help. Fill in your details and we will get in touch with you.</p>
     <p>You can also contact us for any information.</p>
+   
     <br />
-    <div class="clientForm">
+
+     <div >
+             <img src="feeding_pets3.jpg" style=" width: 400px; height: 450px; float:right; margin-bottom:20px; margin-right:150px; border-radius:10px;" alt="cat picture"/>
+     </div>
+    
+        <div class="row">
+<link href="Footer.css" rel="stylesheet" />
+<link href="Footer.css" rel="stylesheet" />
+           
+<link href="HeaderStyleSheet.css" rel="stylesheet" />
+            <div class="column" style="width:900px">
+                <div class="clientForm">
+
+                <form id="ClientForm" action="formSubmitted.html">
 
 
+                    <input type="text" id="fname" name="fname" value="First name*" /><br /><br />
 
-        <form id=" ClientForm" action="formSubmitted.html">
+                    <input type="text" id="lname" name="lname" value="Last name*" /><br><br>
 
+                    <input type="tel" id="contactNumber" name="contactNumber" value="Phone" /><br><br>
 
-            <input type="text" id="fname" name="fname" value="First name*" /><br /><br />
+                    <input type="email" id="email" name="Email*" value="Email"><br /><br />
 
-            <input type="text" id="lname" name="lname" value="Last name*" /><br><br>
+                    <input type="submit" id="submit" value="Submit" />
 
-            <input type="tel" id="contactNumber" name="contactNumber" value="Phone" /><br><br>
-
-            <input type="email" id="email" name="Email*" value="Email"><br /><br />
-
-
-            <input type="submit" id="submit" value="Submit" />
-            <input type="reset" />
-        </form>
-    </div>
+                    <input type="reset" />
+       
+                
+                </form>
+                </div>
+            </div>
+                
+           
+        </div>
+        
     <br />
-    <br /><br />
+    <br />
+    <br />
+    <br />
     <footer>
 
-        <p> Contact us:</p>
+       <p> Contact us:</p>
         <p>email:admin@feedapet.ac.nz</p>
         <address>Address:6 Flower avenue Wellington Auckland New Zealand 0258</address>
     </footer>

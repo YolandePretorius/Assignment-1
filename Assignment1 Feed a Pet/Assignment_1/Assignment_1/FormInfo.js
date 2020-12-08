@@ -1,4 +1,6 @@
 ﻿
+
+/*receive information filled into the form */
 function functionSubmit(fname, lname, tel, email) 
 
     let name = document.getElementById(fname);

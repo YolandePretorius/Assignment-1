@@ -1,9 +1,7 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang ="en">
 <head>
     <link rel="stylesheet" type="text/css" href="HeaderStyleSheet.css" />
-    <link rel="stylesheet" type="text/css" href="middleContent.css" />
-    <link rel="stylesheet" type="text/css" href="rightContent.css" />
     <link rel="stylesheet" type="text/css" href="Columns.css " />
     <link rel="stylesheet" type="text/css" href="Body.css" />
     <link rel="stylesheet" type="text/css" href="Footer.css" />
@@ -13,11 +11,15 @@
     <title>Form Submitted</title>
 </head>
 <body>
-    <header>
+   <header id="Header">
         &nbsp; <img id="logo" src="LOGO2.png" alt="logo"><h1>Support for elderly and disabled pet owners</h1>
-        <form>
-            <input type="search" placeholder="Search.." />
-        </form>
+        <!--<input type="text" placeholder="Search..">-->
+
+        <div class="search_box">
+            <form action="search.php" method="GET" id="search">
+                <input type="text" name="q" size="25" placeholder="Search." />
+            </form>
+        </div>
     </header>
 
     <div class="topnav">
@@ -25,13 +27,16 @@
         <a href="GetSupport.html">Get Suport</a>
         <a href="HowYouHelp.html">How you can help</a>
         <a href="https://www.spca.nz/contact">Report animal abuse</a>
-        <a href="Donate.html">Donate</a>
+        <a class="button2" href="Donate.html">Donate</a>
+
     </div>
 
-    <p>Your form has been submitted</p>
-    <p>Someone will contact you soon</p>
-
+    <h2>Your form has been submitted</h2>
+    <h2>Someone will contact you soon</h2>
+    <br/>
     <br />
+    <br/>
+    <br/>
 
     <footer>
         <p> Contact us:</p>
